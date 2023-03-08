@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="form_Container">
+        <form class="form">
+            <h1 class="title">Welcome</h1>
+
+            <input type="text" class="user" placeholder="User" id="user">
+            <div class="passCont">
+
+                <input type="password" name="" id="password"  placeholder="Password" class="pass" style="color:white">
+
+                <i class="icon bi bi-eye-fill" id="show" onclick="mostrar()"></i>
+            </div>
+
+            <p id="error">Error en el usuario o contraseña</p>
+            <div class="login" id="login">Login</div>
+
+            <div class="remind"><input type="checkbox" name="" id=""> Remind Me</div>
+
+            <label for=""><a href="">Forgot my password</a></label>
+            <label for=""><a href="">Register</a></label>
+        </form>
+    </div>
+    
+
+    <script src="../JS/main.js"></script>
+</body>
+</html>
