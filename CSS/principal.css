@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: rgb(23, 23, 23);
 }
 
 :root{
@@ -44,7 +44,8 @@ body{
     height: 100%;
     width: 600px;
     padding: 15px;
-    background-color: var(--colorAzulito);
+    background-color: white;
+    border-radius: 5px;
 }
 
 .products{
@@ -55,7 +56,7 @@ body{
 }
 
 .card_product{
-    border: 3px solid var(--colorAzulito);
+    /* border: 3px solid var(--colorAzulito); */
     border-radius: 15px;
     background-color: white;
     width: 300px;
@@ -69,6 +70,7 @@ body{
 .card_product_title{
     height: 65px;
     margin-top: 8px;
+    border-radius: 5px 5px 0 0;
     padding: 5px;
     display: flex;
     justify-content: center;

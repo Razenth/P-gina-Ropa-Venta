@@ -101,8 +101,6 @@ ventana.addEventListener('click',event=>{
           localStorage.setItem('user', contenidoUser);
     }
 })
-// console.log(exportar)
-// localStorage('exportar',document.querySelector('.card_product_title-modal').innerText)
 
 let usuario = {
     producto:`${exportacion}`
@@ -112,5 +110,9 @@ let contenidoUser = JSON.stringify(usuario);
   
   localStorage.setItem('user', contenidoUser);
 
+const salir=document.querySelector('.Salir')
 
+salir.addEventListener('click', ()=>{
+    location.href='../HTML/index.html'
+})
 

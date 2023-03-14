@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fresca', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: mediumpurple;
+    height: 100%;
+    padding: 30px;
+}
+
+h1{
+    background-color: white;
+    height: auto;
+    text-align: center;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    height: 40%;
+    font-size: 30px;
+}
+
+
+.volver {
+    align-self: center;
+    min-width: 130px;
+    height: 40px;
+    width: 50px;
+    color:mediumpurple;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: white;
+    box-shadow: 0 5px #212529;
+  }
+  .volver:hover {
+    box-shadow: 0 3px #212529;
+    top: 1px;
+  }
+  .volver:active {
+    box-shadow: 0 0 #212529;
+    top: 5px;
+  }
+
