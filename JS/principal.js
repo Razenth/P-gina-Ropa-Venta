@@ -90,7 +90,7 @@ ventana.addEventListener('click',event=>{
     exportacion=name_product
     if(event.target.className=="btn-sale"){
         alert(`Gracias por haber comprado ${name_product}`)
-        window.open('../HTML/comprado.html ',' _blank')
+        location.href='../HTML/comprado.html '
         modal.style.display='none'
         let usuario = {
             producto:`${exportacion}`
