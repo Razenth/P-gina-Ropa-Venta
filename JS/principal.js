@@ -113,6 +113,6 @@ let contenidoUser = JSON.stringify(usuario);
 const salir=document.querySelector('.Salir')
 
 salir.addEventListener('click', ()=>{
-    location.href='../HTML/index.html'
+    location.href='../index.html'
 })
 
