@@ -50,7 +50,7 @@ login.addEventListener('click',()=>{
                 alert(`Bienvenido ${usuarios[indice].nombre}`)
                 user.value=''
                 password.value=''
-                location.href='../HTML/principal.html'
+                location.href='./HTML/principal.html'
             }else{
                 mostrarError()
             }
